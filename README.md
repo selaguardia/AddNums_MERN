@@ -41,7 +41,7 @@ $ npm start
 ```
 
 #### **Step 5:**
-* To get run unit test
+* To run unit tests
 ```
 $ cd ../gander-test/
 $ CTRL + C    // Stops server
