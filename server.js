@@ -14,7 +14,6 @@ app.post('/addNums', (req, res) => {
     const input1 = req.body.num1;
     const input2 = req.body.num2;
     const answer = input1 + input2;
-
     return res.status(200).send({answer});
   } catch (error) {
     req.error = error;
